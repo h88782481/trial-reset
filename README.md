@@ -116,10 +116,10 @@ git clone https://github.com/h88782481/trial-reset.git
 cd trial-reset
 
 # 安装依赖
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 
 # 打包为可执行文件
-pyinstaller --onefile --windowed --name="TrialReset" --icon=assets/icon.ico --add-data "assets;assets" --clean --noconfirm main.py
+python -m PyInstaller --onefile --windowed --name="TrialReset" --icon=assets/icon.ico --add-data "assets;assets" --clean --noconfirm main.py
 
 # 可执行文件位于 dist/TrialReset.exe
 ```
