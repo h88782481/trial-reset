@@ -112,7 +112,7 @@ trial-reset/
 
 ```bash
 # 克隆仓库
-git clone https://github.com/YOUR_USERNAME/trial-reset.git
+git clone https://github.com/h88782481/trial-reset.git
 cd trial-reset
 
 # 安装依赖
