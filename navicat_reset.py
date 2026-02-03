@@ -85,7 +85,7 @@ class NavicatReset:
         """
         执行 Navicat 试用期重置
         
-        1. 删除 NavicatPremium\Update 注册表项
+        1. 删除 NavicatPremium\\Update 注册表项
         2. 删除所有 Registration* 子项
         3. 删除包含 Info/ShellFolder 的 CLSID 条目
         

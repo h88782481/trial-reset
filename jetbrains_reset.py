@@ -178,10 +178,10 @@ class JetBrainsReset:
         执行 JetBrains 试用期重置
         
         1. 备份 IDE 设置
-        2. 删除整个 %APPDATA%\JetBrains 文件夹
-        3. 删除 %LOCALAPPDATA%\JetBrains\{IDE}* 文件夹
-        4. 删除旧版 %USERPROFILE%\.{IDE}* 文件夹
-        5. 删除注册表 HKCU\Software\JavaSoft
+        2. 删除整个 %APPDATA%\\JetBrains 文件夹
+        3. 删除 %LOCALAPPDATA%\\JetBrains\\{IDE}* 文件夹
+        4. 删除旧版 %USERPROFILE%\\.{IDE}* 文件夹
+        5. 删除注册表 HKCU\\Software\\JavaSoft
         6. 从备份恢复 IDE 设置
         7. 清理已恢复设置中的试用相关条目
         
